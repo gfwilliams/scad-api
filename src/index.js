@@ -6,6 +6,7 @@ import * as extrusions from './ops-extrusions'
 import * as color from './color'
 import * as maths from './maths'
 import * as text from './text'
+import * as metaball from './metaball'
 import { echo } from './debug'
 
 // these are 'external' to this folder ...needs to be reviewed
@@ -24,6 +25,7 @@ const exportedApi = {
   color,
   maths,
   text,
+  metaball,
   OpenJsCad: {OpenJsCad: {log}},
   debug: {echo}
 }
