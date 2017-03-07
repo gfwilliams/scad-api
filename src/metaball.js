@@ -49,6 +49,7 @@ function main() {
 }
 
 */
+import { CSG } from '@jscad/csg'
 var MAX_SIZE = 128; // maximum grid size
 
 export function metaball(options) {
